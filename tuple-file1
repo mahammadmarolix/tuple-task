@@ -1,0 +1,61 @@
+##1.Write a Python program to unpack a tuple into several variables.
+tuple = ("marolix", 23, "mahammad", "Naguru")
+tuple1, tuple2, tuple3, tuple4= tuple
+print(tuple1)
+print(tuple2)
+print(tuple3)
+print(tuple4)
+
+##2.Write a Python program to add an item to a tuple.
+maha = ("mahammad", "is", "one", "of", "employe", "in", "marolix")
+maha = list(maha)
+maha.insert(0, "Naguru")
+print(maha)
+
+##3.Write a Python program to convert a tuple to a string.
+tup = ('e', 'x', 'e', 'r', 'c', 'i', 's', 'e', 's')
+tup = list(tup)
+tup = str(tup)
+print(tup)
+
+#4.Write a Python program to get the specified element from the last element of a tuple.
+tup = ('e', 'x', 'e', 'r', 'c', 'i', 's', 'e', 's')
+nag = tup[7]
+print(nag)
+maha = tup[-2]
+print(maha)
+
+##5.Write a Python program to add member(s) to a set.
+set = {2,3,34,4,5,6,8}
+set.add(786)
+print(set)
+
+##6.Write a Python program to create an intersection of sets.
+set1 = {1,2,3,45,67,889,786,5,7,9}
+set2 = {2,3,6,7,34,67,89,98,8,9}
+set1.intersection(set2)
+print(set1)
+
+##7.Write a Python program to create a union of sets.
+set1 = {1,2,3,45,67,889,786,5,7,9}
+set2 = {2,3,6,7,34,67,89,98,8,9}
+set1.union(set2)
+print(set1)
+
+##8.Write a Python program to create set difference.
+set1 = {1,2,3,45,67,889,786,5,7,9}
+set2 = {2,3,6,7,34,67,89,98,8,9}
+set3 = set1 - set2
+print(set3)
+
+##9.Write a Python program to create a symmetric difference.
+set1 = {1, 2, 3, 4, 5}
+set2 = {3, 4, 5, 6, 7}
+set3 = set1 ^ set2
+print(set3)
+
+##10.Write a Python program to find the maximum and minimum values in a set.
+set1 = {1,2,3,45,67,889,786,5,7,9}
+set2 = {2,3,6,7,34,67,89,98,8,9}
+print(max(set1), min(set1))
+print(max(set2), min(set2))
